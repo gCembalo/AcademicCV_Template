@@ -123,7 +123,7 @@
         % Se almeno uno è pieno, stampa tutto
         \vspace{1.5mm}
         \resumeItemListStart
-            \begin{tabular*}{0.955\textwidth}[t]{p{0.75\textwidth} @{\extracolsep{\fill}} r}
+            \begin{tabular*}{0.955\textwidth}[t]{p{0.77\textwidth} @{\extracolsep{\fill}} r}
                 \ifstrempty{#1}{}{\footnotesize{#1}} & \ifstrempty{#2}{}{\footnotesize{#2}}%
                 \ifboolexpr{test {\notblank{#3}} or test {\notblank{#4}}}{%
                     \\ \footnotesize{#3} & \footnotesize{#4}%
@@ -199,7 +199,7 @@
 
 
 %//////////////////////////////////////////////////////////////////////////////
-%                                 HEADER                                     //
+%                                 Header                                     //
 %//////////////////////////////////////////////////////////////////////////////
 % To write in the document all the information, taken from data file.
 
@@ -217,7 +217,7 @@
 %       #5 : Github account name
 %       #6 : Address
 %       #7 : Linkedin profile
-\newcommand{\header}[7]{
+\newcommand{\header}{
     \begin{center}
         {\Huge\textbf{\name}}
     \end{center}
@@ -246,6 +246,8 @@
     \begin{center}
         \small{\address}
     \end{center}
+    \par\hbox{} % Forza la chiusura corretta del blocco
+    \vspace{-4mm}
 }
 
 
@@ -262,6 +264,7 @@
         \small
         \PersonalDetail\par
     \endgroup
+    \vspace{-0.2mm}
 }
 
 
@@ -319,6 +322,39 @@
     }
 
     \resumeSubHeadingListEnd
+    \vspace{-6mm}
+}
+
+
+
+%//////////////////////////////////////////////////////////////////////////////
+%                                 Languages                                  //
+%//////////////////////////////////////////////////////////////////////////////
+
+% defining the environment for the Languages
+\newcommand{\Languages}{
+    \section{\textbf{Languages}}
+    \resumeHeadingSkillStart
+    \resumeSubItem{Languages:}{\LanguageI \LanguageII \LanguageIII \LanguageIV \LanguageV \LanguageVI}
+    \resumeHeadingSkillEnd
+}
+
+
+
+%//////////////////////////////////////////////////////////////////////////////
+%                                  Skills                                    //
+%//////////////////////////////////////////////////////////////////////////////
+
+% defining the environment for the Personal Skills
+\newcommand{\Skills}{
+    \section{\textbf{Skills}}
+    \resumeHeadingSkillStart
+    \resumeSubItem{Specialized Area:}{\SpecializedArea}
+    \resumeSubItem{Programming Languages:}{\ProgrammingLanguages}
+    \resumeSubItem{Mathematical \& Statistical Tools:}{\MathStats}
+    \resumeSubItem{Other Tools \& Technologies:}{\Other}
+    \resumeSubItem{Operating system:}{\OS}
+    \resumeHeadingSkillEnd
 }
 
 
@@ -337,33 +373,35 @@
 
 
 %//////////////////////////////////////////////////////////////////////////////
-%                                  Skills                                    //
+%                             Honors and Awards                              //
 %//////////////////////////////////////////////////////////////////////////////
 
-% defining the environment for the Personal Skills
-\newcommand{\Skills}{
-    \section{\textbf{Skills}}
-    \resumeHeadingSkillStart
-    \resumeSubItem{Specialized Area:}{Math, Physics}
-    \resumeSubItem{Programming Languages:}{C++ (see my \href{https://github.com/gCembalo/Particles_in_EM_Fields.git}{project}), Phyton, html (basic)}
-    \resumeSubItem{Mathematical \& Statistical Tools:}{ROOT}
-    \resumeSubItem{Other Tools \& Technologies:}{LaTeX, GitHub, Mathematica, Microsoft Office, Google suite}
-    \resumeSubItem{Operating system:}{MacOS, Windows, Linux}
-    %\resumeSubItem{Database Systems:}{Database 1, Database 2, Database 3}
-    %\resumeSubItem{Data Science \& Machine Learning:}{Tool 1, Tool 2, Tool 3, Tool 4, Tool 5, Tool 6}
-    \resumeHeadingSkillEnd
+% defining the environment for the honors and awards
+\newcommand{\Honors}{
+    \section{\textbf{Honors and Awards}}
+    \vspace{-0.4mm}
+    \resumeSubHeadingListStart
+    \resumeProject{\AwardNameI}{\AwardSocietyI}{\AwardDateI}{}
+    %\resumeItemListStart
+    %  \item Brief description of the award and its significance
+    %\resumeItemListEnd
+    \resumeSubHeadingListEnd
 }
 
 
 
 %//////////////////////////////////////////////////////////////////////////////
-%                                 Languages                                  //
+%                         Extracurricular activities                         //
 %//////////////////////////////////////////////////////////////////////////////
 
-% defining the environment for the Languages
-\newcommand{\Languages}{
-    \section{\textbf{Languages}}
-    \resumeHeadingSkillStart
-    \resumeSubItem{Languages:}{Italian (\textit{Mother tongue}), English (\textit{fluent (B2)})}
-    \resumeHeadingSkillEnd
+% defining the environment for extracurricular activities
+\newcommand{\Extra}{
+    \section{\textbf{Extracurricular and sporting activities}}
+    \resumeSubHeadingListStart
+    \resumeSubheading{\SportingCenterI}{\TimeI}{\ActivityI}{\LocationI}
+    \resumeSubheading{\SportingCenterII}{\TimeII}{\ActivityII}{\LocationII}
+    \resumeSubheading{\SportingCenterIII}{\TimeIII}{\ActivityIII}{\LocationIII}
+    \resumeSubheading{\SportingCenterIV}{\TimeIV}{\ActivityIV}{\LocationIV}
+
+    \resumeSubHeadingListEnd
 }
