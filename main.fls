@@ -101,6 +101,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-gen
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
+INPUT ./Data.sty
+INPUT Data.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
@@ -308,8 +310,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfad
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 OUTPUT main.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-INPUT ./Data.sty
-INPUT Data.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/nfssext-cfr/nfssext-cfr-nnfss.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/nfssext-cfr/nfssext-cfr-nnfss.sty
 INPUT ./main.aux
