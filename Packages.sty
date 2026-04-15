@@ -32,16 +32,26 @@
 %                              Font options                                  //
 %//////////////////////////////////////////////////////////////////////////////
 
-\newcommand{\headerfonti}{\fontfamily{phv}\selectfont} % Helvetica-like (similar to Arial/Calibri)
-\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont} % Times-like (similar to Times New Roman)
-\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont} % Palatino (elegant serif)
-\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont} % Bookman (readable serif)
-\newcommand{\headerfontv}{\fontfamily{pag}\selectfont} % Avant Garde-like (similar to Trebuchet MS)
-\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont} % Computer Modern Sans Serif
-\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont} % Quasi-Helvetica (another Arial/Calibri alternative)
-\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont} % Quasi-Palatino (another elegant serif option)
-\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont} % Quasi-Times (another Times New Roman alternative)
-\newcommand{\headerfontx}{\fontfamily{bch}\selectfont} % Charter (clean serif font)
+% Helvetica-like (similar to Arial/Calibri)
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont} 
+% Times-like (similar to Times New Roman)
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont} 
+% Palatino (elegant serif)
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont} 
+% Bookman (readable serif)
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont} 
+% Avant Garde-like (similar to Trebuchet MS)
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont} 
+% Computer Modern Sans Serif
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont} 
+% Quasi-Helvetica (another Arial/Calibri alternative)
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont} 
+% Quasi-Palatino (another elegant serif option)
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont} 
+% Quasi-Times (another Times New Roman alternative)
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont} 
+% Charter (clean serif font)
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont} 
 
 
 
@@ -125,19 +135,25 @@
 \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\circ$}}$}
 
-% Define a itemize style. leftmargin=* is needed to not indent the text (as Latex default).
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+% Define a itemize style. leftmargin=* is needed to not indent 
+% the text (as Latex default).
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}
+    [leftmargin=*,labelsep=1mm]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
 
-\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}
+    [leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
 \newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
 
-% Define a itemize style. To use in sub-itemize, e.g. inside \resumeSubHeadingListStart
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.4cm,labelsep=1mm,itemsep=0.5mm]}
+% Define a itemize style. To use in sub-itemize, 
+% e.g. inside \resumeSubHeadingListStart
+\newcommand{\resumeItemListStart}{\begin{itemize}
+    [leftmargin=0.4cm,labelsep=1mm,itemsep=0.5mm]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
 
 
-% Build a invisible tabular (almost all the page width), where you can add all your information.
+% Build a invisible tabular (almost all the page width), where you can add all 
+% your information.
 % \exptracolsep{} need to put the information on the right.
 %
 % For Education section for example:
@@ -152,7 +168,8 @@
     \vspace{-2.mm}
 }
 
-% Another invisible tabular, this time to write additional information to your degree section:
+% Another invisible tabular, this time to write additional information to your 
+% degree section:
 % (#1 Assessment)                   (#2 --)
 % (#3 Average grade)                (#4 Transcript)
 % (#5 Thesis)                       (#6 Thesis link)
@@ -182,7 +199,7 @@
             \end{tabular*}
         \resumeItemListEnd
     }{%
-        % Se sono tutti vuoti, non stampa ASSOLUTAMENTE nulla (nemmeno lo spazio)
+        % If all the space are empty it doesn't print nothing
     }%
 }
 
@@ -238,7 +255,8 @@
         \phone 
         \ifblank{\mail}{}{ | \href{mailto:\mail}{\mail}} 
         \ifblank{\website}{}{ | \href{\website}{Personal page}} 
-        \ifblank{\githubname}{}{ | \socialicon{\faGithub} \href{https://github.com/\githubname}{\githubname}}
+        \ifblank{\githubname}{}{ | \socialicon{\faGithub} 
+        \href{https://github.com/\githubname}{\githubname}}
         }
     \end{center}
 
@@ -247,7 +265,8 @@
         \vspace{-4mm}
         \begin{center}
             \small{%
-                \socialicon{\faLinkedin} \href{https://www.linkedin.com/in/\linkedin/}{\linkedin}%
+                \socialicon{\faLinkedin} 
+                \href{https://www.linkedin.com/in/\linkedin/}{\linkedin}%
             }
         \end{center}
     }
@@ -276,7 +295,8 @@
 }
 
 
-% Defining and alternative environment for the Personal Detail section (with photo).
+% Defining and alternative environment for the Personal Detail section 
+% (with photo).
 % IMPORTANT: call your photo: photo.(extension)
 \newcommand{\InformationII}{%
     \section{\textbf{Personal Detail}}%
@@ -360,7 +380,8 @@
 \newcommand{\Languages}{
     \section{\textbf{Languages}}
     \resumeHeadingSkillStart
-    \resumeSubItem{Languages:}{\LanguageI \LanguageII \LanguageIII \LanguageIV \LanguageV \LanguageVI}
+    \resumeSubItem{Languages:}{\LanguageI \LanguageII \LanguageIII \LanguageIV
+                               \LanguageV \LanguageVI}
     \resumeHeadingSkillEnd
 }
 
