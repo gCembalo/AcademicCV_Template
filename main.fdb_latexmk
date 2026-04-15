@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1776256282.63581 "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" "main.pdf" "main" 1776256284.16939 0
-  "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" 1776256282.35081 594 ac703f01cbd0f58f19a48f226d0887eb ""
+["pdflatex"] 1776281823.61179 "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" "main.pdf" "main" 1776281825.07238 0
+  "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" 1776281823.36576 594 ac703f01cbd0f58f19a48f226d0887eb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -225,11 +225,11 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743493289 3345731 1b54ae79c33d7c2bf6de57c6693051df ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "Data.sty" 1776256253.81833 10225 d8b38b30ea8ce7eda0679e914ab6651d ""
-  "Packages.sty" 1776256281.25552 13610 0a08358c82cbbcc149fde2d5d4e5bca0 ""
-  "Photo/Photo.jpg" 1776236735.74294 28475 5987cee9759a901a0f1d1fc4f86d15fa ""
-  "main.aux" 1776256284.04279 633 61994f37bd52c16982daced680c16ff4 "pdflatex"
-  "main.out" 1776256284.04341 370 d11885208a6a49f7abce28322da8238a "pdflatex"
-  "main.tex" 1776256282.35081 594 ac703f01cbd0f58f19a48f226d0887eb ""
+  "Packages.sty" 1776281820.03153 13611 786c3ce214dd689a4e52cbc42a34a612 ""
+  "Photo/photo.jpeg" 1776281648.57881 1190685 d156c81c6a11604df86c3dde6d9654f8 ""
+  "main.aux" 1776281824.96489 633 61994f37bd52c16982daced680c16ff4 "pdflatex"
+  "main.out" 1776281824.96562 370 d11885208a6a49f7abce28322da8238a "pdflatex"
+  "main.tex" 1776281823.36576 594 ac703f01cbd0f58f19a48f226d0887eb ""
   (generated)
   "main.aux"
   "main.log"

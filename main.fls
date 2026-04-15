@@ -375,11 +375,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT ./Photo/Photo.jpg
-INPUT ./Photo/Photo.jpg
-INPUT ./Photo/Photo.jpg
-INPUT ./Photo/Photo.jpg
-INPUT ./Photo/Photo.jpg
+INPUT ./Photo/photo.jpeg
+INPUT ./Photo/photo.jpeg
+INPUT ./Photo/photo.jpeg
+INPUT ./Photo/photo.jpeg
+INPUT ./Photo/photo.jpeg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
