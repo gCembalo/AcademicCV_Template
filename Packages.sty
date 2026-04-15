@@ -107,29 +107,38 @@
 \newcommand{\resumeSubheading}[4]{
 \vspace{0.5mm}\item
     \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1} & \textit{\footnotesize{#4}} \\
-        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+        \textbf{#1} & \textit{\small{#4}} \\
+        \textit{\small{#3}} &  \small{#2}\\
     \end{tabular*}
     \vspace{-2.mm}
 }
 
-\newcommand{\resumeItemEducation}[6]{%
+% Additional information:
+% (#1 Assessment)                                   (#2 --)
+% (#3 Average grade)                                (#4 Transcript)
+% (#5 Thesis)                                       (#6 Thesis link)
+% (#7 Supervisor)
+\newcommand{\resumeItemEducation}[7]{%
     % Controlla se almeno uno dei 6 argomenti NON è vuoto
     \ifboolexpr{
         test {\notblank{#1}} or test {\notblank{#2}} or 
         test {\notblank{#3}} or test {\notblank{#4}} or 
-        test {\notblank{#5}} or test {\notblank{#6}}
+        test {\notblank{#5}} or test {\notblank{#6}} or 
+        test {\notblank{#7}}
     }{%
         % Se almeno uno è pieno, stampa tutto
         \vspace{1.5mm}
         \resumeItemListStart
             \begin{tabular*}{0.955\textwidth}[t]{p{0.77\textwidth} @{\extracolsep{\fill}} r}
-                \ifstrempty{#1}{}{\footnotesize{#1}} & \ifstrempty{#2}{}{\footnotesize{#2}}%
+                \ifstrempty{#1}{}{\small{#1}} & \ifstrempty{#2}{}{\small{#2}}%
                 \ifboolexpr{test {\notblank{#3}} or test {\notblank{#4}}}{%
-                    \\ \footnotesize{#3} & \footnotesize{#4}%
+                    \\ \small{#3} & \small{#4}%
                 }{}%
                 \ifboolexpr{test {\notblank{#5}} or test {\notblank{#6}}}{%
-                    \\ \footnotesize{#5} & \footnotesize{#6}%
+                    \\ \small{#5} & \small{#6}%
+                }{}%
+                \ifboolexpr{test {\notblank{#7}}}{%
+                    \\ \small{#7}%
                 }{}%
             \end{tabular*}
         \resumeItemListEnd
@@ -144,8 +153,8 @@
 \newcommand{\resumeProject}[4]{
 \vspace{0.5mm}\item
     \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1} & \textit{\footnotesize{#3}} \\
-        \footnotesize{\textit{#2}} & \footnotesize{#4}
+        \textbf{#1} & \textit{\small{#3}} \\
+        \small{\textit{#2}} & \small{#4}
     \end{tabular*}
     \vspace{-2.4mm}
 }
@@ -211,18 +220,25 @@
 
 % Header
 % with: #1 : Name Surname
-%       #2 : Phone number (with for example +39)
-%       #3 : email address
-%       #4 : Personal page url
-%       #5 : Github account name
-%       #6 : Address
-%       #7 : Linkedin profile
+%       #2 : Birth place and date
+%       #3 : Phone number (with for example +39)
+%       #4 : email address
+%       #5 : Personal page url
+%       #6 : Github account name
+%       #7 : Address
+%       #8 : Linkedin profile
 \newcommand{\header}{
     \begin{center}
         {\Huge\textbf{\name}}
     \end{center}
-    \vspace{-6mm}
+    \vspace{-2mm}
 
+    \begin{center}
+        \small{
+        Date and Place of Birth: \Birth \ -\ \BirthCity , \BirthNation
+        }
+    \end{center}
+    
     \begin{center}
         \small{
         \phone 
@@ -269,6 +285,27 @@
 
 
 
+
+% Defining and alternative environment for the Personal Detail section (with photo).
+% IMPORTANT: call your photo: photo.(extension)
+\newcommand{\InformationII}{%
+    \section{\textbf{Personal Detail}}%
+    \vspace{1mm}%
+    \begin{minipage}{0.77\textwidth}
+        \begingroup
+            \small
+            \PersonalDetail\par
+        \endgroup
+    \end{minipage}\hfill
+    \begin{minipage}{0.21\textwidth}
+        \centering
+        \includegraphics[width=1.0\textwidth]{Photo/Photo.jpg}
+    \end{minipage}
+    \vspace{-0.2mm}
+}
+
+
+
 %//////////////////////////////////////////////////////////////////////////////
 %                                Education                                   //
 %//////////////////////////////////////////////////////////////////////////////
@@ -289,6 +326,7 @@
         {Assessment: \AssesmentIII}{}
         {\AvgGradeII}{\AccTranscriptIII}
         {\ThesisII}{\ThesisLinkIII}
+        {\SupervisorI}
     }{
         % If different from Yes
     }
@@ -303,6 +341,7 @@
         {Assessment: \AssesmentII}{}
         {\AvgGradeII}{\AccTranscriptII}
         {\ThesisII}{\ThesisLinkII}
+        {\SupervisorII}
     }{
         % If different from Yes
     }
@@ -317,6 +356,7 @@
         {Assessment: \AssesmentI}{}
         {\AvgGradeI}{\AccTranscriptI}
         {\ThesisI}{\ThesisLinkI}
+        {\SupervisorIII}
     }{
         % If different from Yes
     }

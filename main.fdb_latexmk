@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1776199133.867 "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" "main.pdf" "main" 1776199135.43517 0
-  "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" 1776199133.63551 542 7cf25a68fe4fd9997a33cde1cef13f14 ""
+["pdflatex"] 1776237089.86908 "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" "main.pdf" "main" 1776237091.3951 0
+  "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" 1776237089.55338 594 ac703f01cbd0f58f19a48f226d0887eb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -224,11 +224,12 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743493427 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743493289 3345731 1b54ae79c33d7c2bf6de57c6693051df ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Data.sty" 1776199033.96172 8947 fdf4441e130dd9f4d6781c0cfd1282e9 ""
-  "Packages.sty" 1776199131.89894 13678 b1fd140b4ec2e64a9012e25d484ccfaa ""
-  "main.aux" 1776199135.32393 633 61994f37bd52c16982daced680c16ff4 "pdflatex"
-  "main.out" 1776199135.32454 370 d11885208a6a49f7abce28322da8238a "pdflatex"
-  "main.tex" 1776199133.63551 542 7cf25a68fe4fd9997a33cde1cef13f14 ""
+  "Data.sty" 1776237087.75807 9541 3578caa94e26020c1d1c890274766c82 ""
+  "Packages.sty" 1776236992.57026 14756 a24ac75f12e28777ce9a931fab9c23a8 ""
+  "Photo/Photo.jpg" 1776236735.74294 28475 5987cee9759a901a0f1d1fc4f86d15fa ""
+  "main.aux" 1776237091.28059 633 61994f37bd52c16982daced680c16ff4 "pdflatex"
+  "main.out" 1776237091.28122 370 d11885208a6a49f7abce28322da8238a "pdflatex"
+  "main.tex" 1776237089.55338 594 ac703f01cbd0f58f19a48f226d0887eb ""
   (generated)
   "main.aux"
   "main.log"
