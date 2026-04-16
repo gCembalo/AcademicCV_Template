@@ -3,7 +3,9 @@
 ## Information
 
 Author: Cembalo Gabriele
+
 Personal Page: http://gcembalo.github.io
+
 License: MIT
 
 Template inspired by the work of Dubasi Pavan Kumar.
@@ -13,9 +15,11 @@ Email: g70362643@gmail.com
 
 Version: 1.2
 
+
 ## Description
 
 This is a basic academic CV written during my MSc in theoretical physics seen the necessity to apply to some Summer School. This template, as you can easly verify, it's inspired by Dubasi Pavan Kumar's template, that you can find here on Overleaf, simply searching his name.
+
 
 ## How to use
 
