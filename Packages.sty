@@ -63,7 +63,7 @@
 
 % Page style
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{} % Clear all header and footer fields
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -175,14 +175,14 @@
 % (#5 Thesis)                       (#6 Thesis link)
 % (#7 Supervisor)
 \newcommand{\resumeItemEducation}[7]{%
-    % Controlla se almeno uno dei 6 argomenti NON è vuoto
+    % Checks if at least one of 6 arguments isn't empty
     \ifboolexpr{
         test {\notblank{#1}} or test {\notblank{#2}} or 
         test {\notblank{#3}} or test {\notblank{#4}} or 
         test {\notblank{#5}} or test {\notblank{#6}} or 
         test {\notblank{#7}}
     }{%
-        % Se almeno uno è pieno, stampa tutto
+        % If at least one is written, it print everything
         \vspace{1.5mm}
         \resumeItemListStart
             \begin{tabular*}{0.955\textwidth}[t]{p{0.77\textwidth} @{\extracolsep{\fill}} r}
@@ -212,18 +212,6 @@
     \end{tabular*}
     \vspace{-2.4mm}
 }
-
-%\newcommand{\cvsection}[1]{%
-%\vspace{2mm}
-%\begin{tcolorbox}
-%    \textbf{\large #1}
-%\end{tcolorbox}
-%    \vspace{-4mm}
-%}
-
-%\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
-%\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
-%\newcolumntype{C}{>{\centering\arraybackslash}X}%
 
 
 
@@ -376,20 +364,21 @@
 
 %--------------------------------- Languages --------------------------------//
 
-% defining the environment for the Languages
+% Defining the environment for the Languages
 \newcommand{\Languages}{
     \section{\textbf{Languages}}
     \resumeHeadingSkillStart
     \resumeSubItem{Languages:}{\LanguageI \LanguageII \LanguageIII \LanguageIV
                                \LanguageV \LanguageVI}
     \resumeHeadingSkillEnd
+    \vspace{-2mm}
 }
 
 
 
 %----------------------------------- Skills ---------------------------------//
 
-% defining the environment for the Personal Skills
+% Defining the environment for the Personal Skills
 \newcommand{\Skills}{
     \section{\textbf{Skills}}
     \resumeHeadingSkillStart
@@ -399,24 +388,26 @@
     \resumeSubItem{Other Tools \& Technologies:}{\Other}
     \resumeSubItem{Operating system:}{\OS}
     \resumeHeadingSkillEnd
+    \vspace{-2mm}
 }
 
 
 
 %-------------------------------- Experience --------------------------------//
 
-% defining the environment for the Personal Detail section
+% Defining the environment for the Personal Detail section
 \newcommand{\Experience}{%
     \section{\textbf{Experience}}%
     \vspace{1mm}%
         \PersonalExperience
+        \vspace{-2mm}
 }
 
 
 
 %----------------------------- Honors and Awards ----------------------------//
 
-% defining the environment for the honors and awards
+% Defining the environment for the honors and awards
 \newcommand{\Honors}{
     \section{\textbf{Honors and Awards}}
     \vspace{-0.4mm}
@@ -432,13 +423,14 @@
     %\resumeSubHeadingListStart
     \resumeProject{\AwardNameIII}{\AwardSocietyIII}{\AwardDateI}{}
     \resumeSubHeadingListEnd
+    \vspace{-6mm}
 }
 
 
 
 %------------------------ Extracurricular activities ------------------------//
 
-% defining the environment for extracurricular activities
+% Defining the environment for extracurricular activities
 \newcommand{\Extra}{
     \section{\textbf{Extracurricular and sporting activities}}
     \resumeSubHeadingListStart
@@ -446,6 +438,6 @@
     %\resumeSubheading{\SportingCenterII}{\TimeII}{\ActivityII}{\LocationII}
     %\resumeSubheading{\SportingCenterIII}{\TimeIII}{\ActivityIII}{\LocationIII}
     %\resumeSubheading{\SportingCenterIV}{\TimeIV}{\ActivityIV}{\LocationIV}
-
     \resumeSubHeadingListEnd
+    \vspace{-6mm}
 }

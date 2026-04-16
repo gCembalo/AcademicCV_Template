@@ -398,7 +398,12 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cfr-lm/clmr2j8t10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi9.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy9.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cfr-lm/clmr2j8t9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -416,6 +421,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
