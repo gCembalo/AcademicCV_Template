@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1776321160.42256 "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" "main.pdf" "main" 1776321161.93803 0
-  "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" 1776321160.11351 2095 d89cd3e15c8385dff5161a9f3bfc2261 ""
+["pdflatex"] 1776840090.41644 "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" "main.pdf" "main" 1776840091.87359 0
+  "/Users/gabriele/GitHub/AcademicCV_Template/main.tex" 1776840090.17749 2106 e38069f9f6603a57e6874bbe3a85e471 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -236,9 +236,9 @@
   "Data.sty" 1776287079.77015 8597 66b7c0ebf8d1079840b886a14408ca11 ""
   "Packages.sty" 1776321045.59304 13763 f5a2c388a7b6e28e5d519141fc48daa1 ""
   "Photo/photo.jpg" 1776320632.64452 34220 5f15d1132ff8358ef82e1244377b80da ""
-  "main.aux" 1776321161.82703 1023 f0ede17c5824053f8c469c8e5f97668d "pdflatex"
-  "main.out" 1776321161.82774 844 a7bf4b6a1173c5a4d5648d59fb477960 "pdflatex"
-  "main.tex" 1776321160.11351 2095 d89cd3e15c8385dff5161a9f3bfc2261 ""
+  "main.aux" 1776840091.76286 1023 f0ede17c5824053f8c469c8e5f97668d "pdflatex"
+  "main.out" 1776840091.76354 844 a7bf4b6a1173c5a4d5648d59fb477960 "pdflatex"
+  "main.tex" 1776840090.17749 2106 e38069f9f6603a57e6874bbe3a85e471 ""
   (generated)
   "main.aux"
   "main.log"
